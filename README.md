@@ -1,6 +1,6 @@
 # ReactivApp
 
-![Demo](./recording.gif)
+<img src="./recording.gif" width="400" height="900">
 
 ## Features
 
