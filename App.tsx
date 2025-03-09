@@ -3,7 +3,7 @@ import {NavigationContainer} from '@react-navigation/native';
 import BottomTabs from './src/navigation/BottomStack';
 import {StatusBar} from 'react-native';
 import {QueryClient, QueryClientProvider} from '@tanstack/react-query';
-import {CartProvider} from './src/context/cartContext';
+import {CartProvider} from './src/context/cart';
 
 const queryClient = new QueryClient();
 

@@ -19,7 +19,7 @@ import {
 } from '../../utils/helpers/product';
 import ProductCard from '../../components/ProductCard';
 import Button from '../../components/Button';
-import {useCart} from '../../context/cartContext';
+import {useCart} from '../../context/cart';
 import Dropdown from '../../components/Dropdown';
 
 const ProductDetailsScreen: React.FC = () => {

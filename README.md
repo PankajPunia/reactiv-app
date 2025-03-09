@@ -1,5 +1,7 @@
 # ReactivApp
 
+[here](./recording.mp4).
+
 ## Features
 
 - Product listing
@@ -10,7 +12,7 @@
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/ReactivApp.git
+   git clone https://github.com/PankajPunia/reactiv-app.git
    ```
 2. Navigate to the project directory:
    ```sh
@@ -66,3 +68,5 @@ src/
 
 - **React Context API**: The Context API is used for managing global state, such as the shopping cart.
 - **Local State**: Local state is managed using React's `useState` hooks for component-specific state.
+
+

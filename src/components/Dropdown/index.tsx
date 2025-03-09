@@ -15,9 +15,6 @@ const Dropdown: React.FC<DropdownProps> = ({data, value, setValue}) => {
     <View style={styles.container}>
       <RNDropdown
         style={[styles.dropdown, isFocus && styles.border]}
-        placeholderStyle={styles.placeholderStyle}
-        selectedTextStyle={styles.selectedTextStyle}
-        iconStyle={styles.iconStyle}
         data={data}
         maxHeight={200}
         labelField="label"
@@ -51,9 +48,6 @@ const styles = StyleSheet.create({
     borderRadius: 8,
     paddingHorizontal: 8,
   },
-  icon: {
-    marginRight: 5,
-  },
   label: {
     position: 'absolute',
     backgroundColor: 'white',
@@ -62,19 +56,5 @@ const styles = StyleSheet.create({
     zIndex: 999,
     paddingHorizontal: 8,
     fontSize: 14,
-  },
-  placeholderStyle: {
-    fontSize: 16,
-  },
-  selectedTextStyle: {
-    fontSize: 16,
-  },
-  iconStyle: {
-    width: 20,
-    height: 20,
-  },
-  inputSearchStyle: {
-    height: 40,
-    fontSize: 16,
   },
 });
